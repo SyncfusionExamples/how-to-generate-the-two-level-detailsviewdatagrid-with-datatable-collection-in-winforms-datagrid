@@ -1,5 +1,8 @@
 # how-to-generate-the-two-level-detailsviewdatagrid-with-datatable-collection-in-winforms-datagrid
-How to generate the two level DetailsViewDataGrid with DataTable collection in WinForms DataGrid(SfDataGrid)?
+
+## About the sample
+This example illustrates how to generate the two level DetailsViewDataGrid with DataTable collection in WinForms DataGrid(SfDataGrid).
+
 By default, the DetailsView will be added for single relation when the AutoGenerateRelations is enabled. To add multiple related tables in SfDataGrid, AutoGenerateRelations for each grid can be enabled through SfDataGrid.AutoGeneratingRelations event.
 
 ```C#
@@ -13,5 +16,8 @@ private void SfDataGrid1_AutoGeneratingRelations(object sender, Syncfusion.WinFo
     e.GridViewDefinition.DataGrid.AutoGenerateRelations = true;
 }
 ```
+
+## Requirements to run the demo
+Visual Studio 2015 and above versions
 
 ![masterviewdetails](masterviewdetails.png)
