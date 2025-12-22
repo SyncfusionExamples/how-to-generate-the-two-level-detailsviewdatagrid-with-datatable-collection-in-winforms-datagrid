@@ -2,7 +2,7 @@
 
 This sample illustrates how to generate the two level `DetailsViewDataGrid` with `DataTable` collection in [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid).
 
-By default, the `DetailsView` will be added for single relation when the `AutoGenerateRelations` is enabled. To add multiple related tables in `DataGrid`, `AutoGenerateRelations` for each grid can be enabled through [SfDataGrid.AutoGeneratingRelations](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.SfDataGrid.html#Syncfusion_UI_Xaml_Grid_SfDataGrid_AutoGeneratingRelations) event.
+By default, the `DetailsView` will be added for single relation when the `AutoGenerateRelations` is enabled. To add multiple related tables in `DataGrid`, `AutoGenerateRelations` for each grid can be enabled through [SfDataGrid.AutoGeneratingRelations](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.SfDataGrid.html#Syncfusion_WinForms_DataGrid_SfDataGrid_AutoGeneratingRelations) event.
 
 ``` csharp
 //Event subscription
